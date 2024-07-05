@@ -7,8 +7,7 @@ Welcome to the Jumbo Interactive AI Programming Task! This repository contains t
 Your task is to create a single-page chat application using Ollama with the Llama 3 model. The application should allow a human user to have a conversation with the Llama 3 AI agent, maintaining the context between messages for a coherent back-and-forth exchange.
 
 ## Getting Started
-
-![Video preview](./public/jumbo-ai-task.mp4)
+[Watch the quick start video](./public/jumbo-ai-task.mp4)
 
 ### Prerequisites
 
