@@ -101,7 +101,7 @@ export default function Home() {
                             container. Run the following command:
                             <pre className="bg-gray-100 p-2 rounded mt-2">
                                 <code>
-                                    docker exec -it jumbo-ai-task-ollama-1 ollama run llama3:latest
+                                    docker exec -it jumbo-ai-task-ollama-1 ollama pull llama3:latest
                                 </code>
                             </pre>
                         </li>

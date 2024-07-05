@@ -8,6 +8,8 @@ Your task is to create a single-page chat application using Ollama with the Llam
 
 ## Getting Started
 
+![Video preview](./public/jumbo-ai-task.mp4)
+
 ### Prerequisites
 
 -   **Docker**: This project requires Docker. If you don't have Docker installed, you can download and install it from the following links:
@@ -20,21 +22,25 @@ Your task is to create a single-page chat application using Ollama with the Llam
 1. **Fork the Repository**: Fork this repository to your own GitHub account.
 
 2. **Clone the Repository**: Clone the forked repository to your local machine using the following command:
+
 ```
 git clone <your-forked-repo-url>
 ```
 
 3. **Navigate to the Project Directory**:
+
 ```
 cd <your-repo-directory>
 ```
 
 4. **Start the Project**: Use Docker Compose to start the project. This will set up the Next.js and Ollama containers.
+
 ```
 docker compose up
 ```
 
 Use Docker Compose to stop the project when you are ready
+
 ```
 docker compose down
 ```
@@ -42,8 +48,9 @@ docker compose down
 5. **Installing the Llama 3 Model**: Once the project is running, you need to install the Llama 3 model in the Ollama container. Follow these steps:
 
 **Install the Llama 3 Model**:
+
 ```
-docker exec -it jumbo-ai-task-ollama-1 ollama run llama3:latest
+docker exec -it jumbo-ai-task-ollama-1 ollama pull llama3:latest
 ```
 
 **Note**: You may need to check the container name by running `docker ps` and updating the name in the command if necessary.
